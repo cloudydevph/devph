@@ -42,7 +42,7 @@ body {
   width: 0.625rem;
   height: 0.625rem;
   flex-shrink: 0;
-  border-radius: 0.375rem;
+  border-radius: 0.125rem;
   border: 1px solid rgba(255, 255, 255, 0.15);
   background: rgba(255, 255, 255, 0.25);
 }
@@ -108,7 +108,7 @@ body {
   width: 1.4375rem;
   height: 2.375rem;
   flex-shrink: 0;
-  border-radius: 1.4375rem;
+  border-radius: 0.25rem;
   border: 1px solid rgba(255, 255, 255, 0.15);
   background: rgba(19, 19, 19, 0.395);
   display: grid;
@@ -127,7 +127,7 @@ body {
   flex-shrink: 0;
   display: flex;
   align-items: flex-end;
-  border-radius: 1.4375rem;
+  border-radius: 0.25rem;
   background: rgba(255, 255, 255, 0.1);
 }
 
@@ -136,7 +136,7 @@ body {
   height: 100%;
   flex-shrink: 0;
   background-color: white;
-  border-radius: 1.4375rem;
+  border-radius: 0.25rem;
 }
 
 .player-status {
@@ -154,7 +154,7 @@ body {
   width: 42px;
   height: 42px;
   flex-shrink: 0;
-  border-radius: 50%;
+  border-radius: 0.5rem;
   background: linear-gradient(
     180deg,
     rgba(23, 23, 23, 0.85) 0%,
