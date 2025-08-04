@@ -23,9 +23,9 @@
       </div>
       <div id="frequencyC" style="display: none;" class="info">
         <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="17" cy="17" r="17" fill="url(#paint0_linear_57_985)" fill-opacity="0.85"/>
-          <circle cx="17" cy="17" r="16" stroke="#FFFFFF" stroke-opacity="1.0" stroke-width="2"/>
-          <circle cx="17" cy="17" r="16" stroke="url(#paint1_linear_57_985)" stroke-opacity="0.15" stroke-width="2"/>
+          <rect x="1" y="1" width="32" height="32" rx="2" fill="url(#paint0_linear_57_985)" fill-opacity="0.85"/>
+          <rect x="2" y="2" width="30" height="30" rx="1.5" stroke="#FFFFFF" stroke-opacity="1.0" stroke-width="2" fill="none"/>
+          <rect x="2" y="2" width="30" height="30" rx="1.5" stroke="url(#paint1_linear_57_985)" stroke-opacity="0.15" stroke-width="2" fill="none"/>
           <path d="M13.2745 12.9837C13.2745 12.0101 13.2763 11.0765 13.2745 10.1422C13.2728 9.6551 13.4871 9.26763 14.0758 9.0753C14.8972 8.80786 15.7615 9.28307 15.7798 10.0222C15.7999 10.8758 15.7851 11.7293 15.7859 12.5836C15.7859 12.7092 15.7859 12.8356 15.7859 12.9788H18.1548C18.3796 11.9595 18.3927 11.9518 19.8536 11.9806C20.5035 11.9932 20.6137 12.1147 20.7406 12.9823C20.8727 12.9893 21.0126 12.9977 21.1517 13.004C21.7325 13.0307 21.9958 13.2406 21.9967 13.7151C22.0011 16.9075 22.0011 20.1006 21.9967 23.293C21.9967 23.7794 21.7133 23.9984 21.1071 23.9984C18.3796 24.0005 15.6512 24.0005 12.9237 23.9984C12.2939 23.9984 12.0035 23.7731 12.0026 23.2775C11.9991 20.0964 11.9991 16.9159 12.0026 13.7347C12.0026 13.2448 12.2598 13.0384 12.8739 13.004C12.9885 12.9977 13.1039 12.9921 13.2754 12.9823L13.2745 12.9837ZM13.243 15.0249V18.013H20.6592V15.0249H13.243ZM18.7776 22.0723H15.1316V22.9989H18.7776V22.0723Z" fill="white"/>
           <defs>
           <linearGradient id="paint0_linear_57_985" x1="17" y1="0" x2="17" y2="34" gradientUnits="userSpaceOnUse">
@@ -57,18 +57,8 @@
     </div>
     <div class="location">
       <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <mask id="mask0_57_999" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="4" y="1" width="22"
-          height="28">
-          <path
-            d="M15 27.5C15 27.5 24.375 20 24.375 11.875C24.375 6.6975 20.1775 2.5 15 2.5C9.8225 2.5 5.625 6.6975 5.625 11.875C5.625 20 15 27.5 15 27.5Z"
-            fill="white" stroke="white" stroke-width="1.33333" stroke-linejoin="round" />
-          <path
-            d="M15 15.625C15.4925 15.625 15.9801 15.528 16.4351 15.3395C16.89 15.1511 17.3034 14.8749 17.6517 14.5267C17.9999 14.1784 18.2761 13.765 18.4645 13.3101C18.653 12.8551 18.75 12.3675 18.75 11.875C18.75 11.3825 18.653 10.8949 18.4645 10.4399C18.2761 9.98497 17.9999 9.57157 17.6517 9.22335C17.3034 8.87513 16.89 8.59891 16.4351 8.41045C15.9801 8.222 15.4925 8.125 15 8.125C14.0054 8.125 13.0516 8.52009 12.3483 9.22335C11.6451 9.92661 11.25 10.8804 11.25 11.875C11.25 12.8696 11.6451 13.8234 12.3483 14.5267C13.0516 15.2299 14.0054 15.625 15 15.625Z"
-            fill="black" stroke="black" stroke-width="1.33333" stroke-linejoin="round" />
-        </mask>
-        <g mask="url(#mask0_57_999)">
-          <path d="M0 0H30V30H0V0Z" fill="white" />
-        </g>
+        <rect x="2" y="2" width="26" height="26" rx="2" fill="white" stroke="white" stroke-width="1.33333"/>
+        <rect x="8" y="8" width="14" height="14" rx="1" fill="black" stroke="black" stroke-width="1.33333"/>
       </svg>
       <div>
         <h6>Rua</h6>
@@ -207,132 +197,36 @@
     <div class="player-status">
       <div class="status">
         <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M21 1.5C26.1246 1.5 31.0432 3.5173 34.6921 7.11558C38.3409 10.7139 40.4266 15.6039 40.4981 20.728C40.5696 25.8521 38.6211 30.7984 35.0741 34.4971C31.527 38.1957 26.6666 40.3495 21.544 40.4924C16.4214 40.6354 11.4484 38.7561 7.70058 35.261C3.95279 31.7659 1.73148 26.936 1.51707 21.8158C1.30267 16.6957 3.11242 11.697 6.55489 7.90081C9.99736 4.10463 14.7958 1.81615 19.9125 1.53035"
-            stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="3" stroke-linecap="round" />
-          <path pathLength="100.01" stroke-dasharray="100.01" stroke-dashoffset="40"
-          id="thirst-status"
-          d="M21 1.5C26.1246 1.5 31.0432 3.5173 34.6921 7.11558C38.3409 10.7139 40.4266 15.6039 40.4981 20.728C40.5696 25.8521 38.6211 30.7984 35.0741 34.4971C31.527 38.1957 26.6666 40.3495 21.544 40.4924C16.4214 40.6354 11.4484 38.7561 7.70058 35.261C3.95279 31.7659 1.73148 26.936 1.51707 21.8158C1.30267 16.6957 3.11242 11.697 6.55489 7.90081C9.99736 4.10463 14.7958 1.81615 19.9125 1.53035"
-            stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
-          <defs>
-            <linearGradient id="paint0_linear_2033_47" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
-              <stop stop-color="white" />
-              <stop offset="0.465" stop-color="white" stop-opacity="0" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
-            </linearGradient>
-          </defs>
-          <defs>
-            <linearGradient id="paint0_linear_57_1028" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
-              <stop stop-color="white" />
-              <stop offset="0.465" stop-color="white" stop-opacity="0" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
-            </linearGradient>
-          </defs>
+          <rect x="3" y="3" width="36" height="36" rx="2" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="3" fill="none"/>
+          <rect x="3" y="3" width="36" height="36" rx="2" stroke="#FFFFFF" stroke-width="3" fill="none" id="thirst-status" pathLength="100.01" stroke-dasharray="100.01" stroke-dashoffset="40"/>
         </svg>
         <img src="./assets/icons/thirst.svg" alt="">
       </div>
       <div class="status">
         <svg  width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M21 1.5C26.1246 1.5 31.0432 3.5173 34.6921 7.11558C38.3409 10.7139 40.4266 15.6039 40.4981 20.728C40.5696 25.8521 38.6211 30.7984 35.0741 34.4971C31.527 38.1957 26.6666 40.3495 21.544 40.4924C16.4214 40.6354 11.4484 38.7561 7.70058 35.261C3.95279 31.7659 1.73148 26.936 1.51707 21.8158C1.30267 16.6957 3.11242 11.697 6.55489 7.90081C9.99736 4.10463 14.7958 1.81615 19.9125 1.53035"
-            stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="3" stroke-linecap="round" />
-          <path
-          id="hunger-status"
-            pathLength="100.01" stroke-dasharray="100.01" stroke-dashoffset="40"
-            d="M21 1.5C26.1246 1.5 31.0432 3.5173 34.6921 7.11558C38.3409 10.7139 40.4266 15.6039 40.4981 20.728C40.5696 25.8521 38.6211 30.7984 35.0741 34.4971C31.527 38.1957 26.6666 40.3495 21.544 40.4924C16.4214 40.6354 11.4484 38.7561 7.70058 35.261C3.95279 31.7659 1.73148 26.936 1.51707 21.8158C1.30267 16.6957 3.11242 11.697 6.55489 7.90081C9.99736 4.10463 14.7958 1.81615 19.9125 1.53035"
-            stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
-          <defs>
-            <linearGradient id="paint0_linear_2033_47" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
-              <stop stop-color="white" />
-              <stop offset="0.465" stop-color="white" stop-opacity="0" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
-            </linearGradient>
-          </defs>
-          <defs>
-            <linearGradient id="paint0_linear_57_1028" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
-              <stop stop-color="white" />
-              <stop offset="0.465" stop-color="white" stop-opacity="0" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
-            </linearGradient>
-          </defs>
+          <rect x="3" y="3" width="36" height="36" rx="2" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="3" fill="none"/>
+          <rect x="3" y="3" width="36" height="36" rx="2" stroke="#FFFFFF" stroke-width="3" fill="none" id="hunger-status" pathLength="100.01" stroke-dasharray="100.01" stroke-dashoffset="40"/>
         </svg>
         <img src="./assets/icons/hunger.svg" alt="">
       </div>
       <div class="status">
         <svg  width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M21 1.5C26.1246 1.5 31.0432 3.5173 34.6921 7.11558C38.3409 10.7139 40.4266 15.6039 40.4981 20.728C40.5696 25.8521 38.6211 30.7984 35.0741 34.4971C31.527 38.1957 26.6666 40.3495 21.544 40.4924C16.4214 40.6354 11.4484 38.7561 7.70058 35.261C3.95279 31.7659 1.73148 26.936 1.51707 21.8158C1.30267 16.6957 3.11242 11.697 6.55489 7.90081C9.99736 4.10463 14.7958 1.81615 19.9125 1.53035"
-            stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="3" stroke-linecap="round" />
-          <path
-            id="shield-status"            pathLength="100.01" stroke-dasharray="100.01" stroke-dashoffset="40"
-            d="M21 1.5C26.1246 1.5 31.0432 3.5173 34.6921 7.11558C38.3409 10.7139 40.4266 15.6039 40.4981 20.728C40.5696 25.8521 38.6211 30.7984 35.0741 34.4971C31.527 38.1957 26.6666 40.3495 21.544 40.4924C16.4214 40.6354 11.4484 38.7561 7.70058 35.261C3.95279 31.7659 1.73148 26.936 1.51707 21.8158C1.30267 16.6957 3.11242 11.697 6.55489 7.90081C9.99736 4.10463 14.7958 1.81615 19.9125 1.53035"
-            stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
-          <defs>
-            <linearGradient id="paint0_linear_2033_47" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
-              <stop stop-color="white" />
-              <stop offset="0.465" stop-color="white" stop-opacity="0" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
-            </linearGradient>
-          </defs>
-          <defs>
-            <linearGradient id="paint0_linear_57_1028" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
-              <stop stop-color="white" />
-              <stop offset="0.465" stop-color="white" stop-opacity="0" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
-            </linearGradient>
-          </defs>
+          <rect x="3" y="3" width="36" height="36" rx="2" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="3" fill="none"/>
+          <rect x="3" y="3" width="36" height="36" rx="2" stroke="#FFFFFF" stroke-width="3" fill="none" id="shield-status" pathLength="100.01" stroke-dasharray="100.01" stroke-dashoffset="40"/>
         </svg>
         <img src="./assets/icons/shield.svg" alt="">
       </div>
       <div class="status">
         <svg  width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M21 1.5C26.1246 1.5 31.0432 3.5173 34.6921 7.11558C38.3409 10.7139 40.4266 15.6039 40.4981 20.728C40.5696 25.8521 38.6211 30.7984 35.0741 34.4971C31.527 38.1957 26.6666 40.3495 21.544 40.4924C16.4214 40.6354 11.4484 38.7561 7.70058 35.261C3.95279 31.7659 1.73148 26.936 1.51707 21.8158C1.30267 16.6957 3.11242 11.697 6.55489 7.90081C9.99736 4.10463 14.7958 1.81615 19.9125 1.53035"
-            stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="3" stroke-linecap="round" />
-          <path id="health-status" pathLength="100.01" stroke-dasharray="100.01" stroke-dashoffset="40"
-            id="health"  
-          d="M21 1.5C26.1246 1.5 31.0432 3.5173 34.6921 7.11558C38.3409 10.7139 40.4266 15.6039 40.4981 20.728C40.5696 25.8521 38.6211 30.7984 35.0741 34.4971C31.527 38.1957 26.6666 40.3495 21.544 40.4924C16.4214 40.6354 11.4484 38.7561 7.70058 35.261C3.95279 31.7659 1.73148 26.936 1.51707 21.8158C1.30267 16.6957 3.11242 11.697 6.55489 7.90081C9.99736 4.10463 14.7958 1.81615 19.9125 1.53035"
-            stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
-          <defs>
-            <linearGradient id="paint0_linear_2033_47" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
-              <stop stop-color="white" />
-              <stop offset="0.465" stop-color="white" stop-opacity="0" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
-            </linearGradient>
-          </defs>
-          <defs>
-            <linearGradient id="paint0_linear_57_1028" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
-              <stop stop-color="white" />
-              <stop offset="0.465" stop-color="white" stop-opacity="0" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
-            </linearGradient>
-          </defs>
+          <rect x="3" y="3" width="36" height="36" rx="2" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="3" fill="none"/>
+          <rect x="3" y="3" width="36" height="36" rx="2" stroke="#FFFFFF" stroke-width="3" fill="none" id="health-status" pathLength="100.01" stroke-dasharray="100.01" stroke-dashoffset="40"/>
         </svg>
         <img src="./assets/icons/health.svg" alt="">
       </div>
       <div id="progressC" class="status" style="display: none;">
         <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path
-            d="M21 1.5C26.1246 1.5 31.0432 3.5173 34.6921 7.11558C38.3409 10.7139 40.4266 15.6039 40.4981 20.728C40.5696 25.8521 38.6211 30.7984 35.0741 34.4971C31.527 38.1957 26.6666 40.3495 21.544 40.4924C16.4214 40.6354 11.4484 38.7561 7.70058 35.261C3.95279 31.7659 1.73148 26.936 1.51707 21.8158C1.30267 16.6957 3.11242 11.697 6.55489 7.90081C9.99736 4.10463 14.7958 1.81615 19.9125 1.53035"
-            stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="3" stroke-linecap="round" />
-          <path pathLength="100.01" stroke-dasharray="100.01" stroke-dashoffset="40"
-          id="progress"  
-          d="M21 1.5C26.1246 1.5 31.0432 3.5173 34.6921 7.11558C38.3409 10.7139 40.4266 15.6039 40.4981 20.728C40.5696 25.8521 38.6211 30.7984 35.0741 34.4971C31.527 38.1957 26.6666 40.3495 21.544 40.4924C16.4214 40.6354 11.4484 38.7561 7.70058 35.261C3.95279 31.7659 1.73148 26.936 1.51707 21.8158C1.30267 16.6957 3.11242 11.697 6.55489 7.90081C9.99736 4.10463 14.7958 1.81615 19.9125 1.53035"
-            stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" />
-          <defs>
-            <linearGradient id="paint0_linear_2033_47" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
-              <stop stop-color="white" />
-              <stop offset="0.465" stop-color="white" stop-opacity="0" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
-            </linearGradient>
-          </defs>
-          <defs>
-            <linearGradient id="paint0_linear_57_1028" x1="0" y1="0" x2="42" y2="42" gradientUnits="userSpaceOnUse">
-              <stop stop-color="white" />
-              <stop offset="0.465" stop-color="white" stop-opacity="0" />
-              <stop offset="1" stop-color="white" stop-opacity="0" />
-            </linearGradient>
-          </defs>
+          <rect x="3" y="3" width="36" height="36" rx="2" stroke="#FFFFFF" stroke-opacity="0.07" stroke-width="3" fill="none"/>
+          <rect x="3" y="3" width="36" height="36" rx="2" stroke="#FFFFFF" stroke-width="3" fill="none" id="progress" pathLength="100.01" stroke-dasharray="100.01" stroke-dashoffset="40"/>
         </svg>
         <img src="./assets/icons/progress.svg" alt="">
       </div>
